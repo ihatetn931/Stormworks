@@ -54,7 +54,7 @@ function onCustomCommand(full_message, user_peer_id, is_admin, is_auth, command,
 	end
 	
 	if command == "?ban" and is_admin == true then
-		server.addAdmin(arg1)
+		server.banPlayer(arg1)
 	end
 	
 	if command == "?clearchat" and is_admin == true then
