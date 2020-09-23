@@ -74,7 +74,7 @@ function onCustomCommand(full_message, user_peer_id, is_admin, is_auth, command,
 	end
 	
 	if command == "?kick" and is_admin == true then
-		server.removeAdmin(arg1)
+		server.kickPlayer(arg1)
 	end
 	
 	if command == "?test" and is_admin == true then
